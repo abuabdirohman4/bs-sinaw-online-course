@@ -1,0 +1,58 @@
+// Base Styling
+$main-green: #079911;
+
+.main-green{
+    &-btn {
+        width: 152px;
+        height: 47px;
+        top: 528px;
+    }
+    &-bg {
+        background-color: $main-green;
+    }
+}
+
+@font-face {
+    font-family: "Quicksand-Bold";
+    src: url("/fonts/Quicksand-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-Regular";
+    src: url("/fonts/Quicksand-Regular.ttf");
+}
+
+.btn-secondary-white {
+    width: 185px;
+    height: 47px;
+    top: 528px;
+}
+
+h1 {
+    // font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 120%;
+    color: #232323;
+    font-family: "Quicksand-Bold";
+}
+
+p {
+    font-size: 20px;
+    // line-height: 30px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%;
+    color: #728196;
+    font-family: "Quicksand-Bold";
+}
+
+// Hero Styling
+.navbar {
+    z-index: 1;
+}
+
+.hero {
+    transform: translateY(-6.5rem);
+}

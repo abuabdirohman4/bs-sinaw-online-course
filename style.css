@@ -1,0 +1,53 @@
+.main-green-btn {
+  width: 152px;
+  height: 47px;
+  top: 528px;
+}
+
+.main-green-bg {
+  background-color: #079911;
+}
+
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url("/fonts/Quicksand-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: url("/fonts/Quicksand-Regular.ttf");
+}
+
+.btn-secondary-white {
+  width: 185px;
+  height: 47px;
+  top: 528px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 120%;
+  color: #232323;
+  font-family: "Quicksand-Bold";
+}
+
+p {
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 150%;
+  color: #728196;
+  font-family: "Quicksand-Bold";
+}
+
+.navbar {
+  z-index: 1;
+}
+
+.hero {
+  -webkit-transform: translateY(-6.5rem);
+          transform: translateY(-6.5rem);
+}
+/*# sourceMappingURL=style.css.map */
