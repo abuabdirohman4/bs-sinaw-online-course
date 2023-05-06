@@ -1,0 +1,35 @@
+$main-green: #079911;
+
+.bg-main-green {
+    background-color: $main-green;
+}
+
+.btn-main-green {
+    width: 152px;
+    height: 47px;
+    top: 528px;
+}
+
+.btn-secondary-white {
+    width: 185px;
+    height: 47px;
+    top: 528px;
+}
+
+h1 {
+    // font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 120%;
+    color: #232323 ;
+}
+
+p {
+    font-size: 20px;
+    // line-height: 30px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%;
+    color: #728196;
+}
